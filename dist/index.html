@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>케어콕 | 향기로 쉬어가는  아로마 마사지</title>
-<meta name="description" content="서울 출장 아로마 마사지. 향기 없는 오일도 있어요. 집,숙소로 찾아가며, 처음이시면 차례부터 설명드려요.">
+<meta name="naver-site-verification" content="ea8143926df6c51cada49884b820e2511b2e9e1c" />
+<title>케어콕 | 향기로 쉬어가는 아로마 마사지</title>
+<meta name="description" content="서울 및 경기 전 지역 방문 아로마 케어 전문. 향기 없는 무향 오일도 준비되어 있습니다. 편안하게 집, 숙소에서 케어 받으시며, 처음이신 분들께도 차례부터 상세히 설명해 드립니다.">
 <link rel="canonical" href="https://carekok-sudo.netlify.app/">
 <meta name="naver-site-verification" content="네이버_서치어드바이저_인증코드_입력">
-<meta property="og:title" content="케어콕 | 향기로 쉬어가는  아로마 마사지">
-<meta property="og:description" content="서울 출장 아로마 마사지. 향기 없는 오일도 있어요. 집,숙소로 찾아가며, 처음이시면 차례부터 설명드려요.">
+<meta property="og:title" content="케어콕 | 향기로 쉬어가는 아로마 마사지">
+<meta property="og:description" content="서울 및 경기 전 지역 방문 아로마 케어 전문. 향기 없는 무향 오일도 준비되어 있습니다. 편안하게 집, 숙소에서 케어 받으시며, 처음이신 분들께도 차례부터 상세히 설명해 드립니다.">
 <meta property="og:url" content="https://carekok-sudo.netlify.app/">
 <meta property="og:type" content="website">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -16,9 +17,9 @@
 {
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
-  "name": "케어콕 | 향기로 쉬어가는  아로마 마사지",
+  "name": "케어콕 | 향기로 쉬어가는 아로마 마사지",
   "url": "https://carekok-sudo.netlify.app/",
-  "description": "서울 출장 아로마 마사지. 향기 없는 오일도 있어요. 집,숙소로 찾아가며, 처음이시면 차례부터 설명드려요.",
+  "description": "서울 및 경기 전 지역 방문 아로마 케어 전문. 향기 없는 무향 오일도 준비되어 있습니다. 편안하게 집, 숙소에서 케어 받으시며, 처음이신 분들께도 차례부터 상세히 설명해 드립니다.",
   "areaServed": "서울/경기 전체",
   "serviceArea": {
     "@type": "GeoCircle",
@@ -48,15 +49,30 @@ body{margin:0}.pg{--ink:#1f1a24;--mute:#6f6676;--line:#ece7ef;--night:#0d0a14;--
 .hero p.lead{max-width:30em;margin:0 auto 28px;font-size:15px;color:#c9bdd6}
 .sec{position:relative;padding:60px 22px;text-align:center;border-top:1px solid var(--line);
  background:repeating-radial-gradient(circle at 50% 40%,transparent 0 46px,rgba(185,140,255,.10) 47px,transparent 48px),#fff}
-.sec:nth-of-type(even){background:repeating-radial-gradient(circle at 50% 60%,transparent 0 58px,rgba(243,179,122,.12) 59px,transparent 60px),#fff}
+.sec:nth-of-type(even){background:repeating-radial-gradient(circle at 50% 60%,transparent 0 58px,rgba(243,179,122,.12) 59px,transparent 60px),#fbf9fc}
 .in{max-width:560px;margin:0 auto}
 .kick{font-size:11px;letter-spacing:.26em;color:#8a6fb3;margin:0 0 8px;font-weight:bold;}
 .sec h2{font-size:23px;line-height:1.4;margin:0 0 26px;letter-spacing:-.02em}
 .cards{display:grid;gap:12px;text-align:left}
 .card{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;}
+.card.text-only {flex-direction:column; align-items:flex-start;}
 .card .info b{display:block;font-size:17px;margin-bottom:4px;color:var(--night);}
 .card .info p{margin:0;font-size:15px;color:var(--btnA);font-weight:600;}
-.btn-call {padding:10px 20px;border-radius:999px;background:linear-gradient(90deg,var(--btnA),var(--btnB));color:#fff;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(123,77,255,.25);}
+.card.text-only .info p {color:var(--mute); font-weight:normal; font-size:14.5px; margin-top:6px;}
+.btn-call {padding:10px 20px;border-radius:999px;background:linear-gradient(90deg,var(--btnA),var(--btnB));color:#fff;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 4px 12px rgba(123,77,255,.25); flex-shrink:0;}
+ol.steps{list-style:none;margin:0;padding:0;display:grid;gap:14px;text-align:left;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:2px 0 2px 52px}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;background:linear-gradient(135deg,var(--btnA),var(--btnB))}
+ol.steps b{display:block; font-size:16px;}
+ol.steps span{font-size:14.5px;color:var(--mute); display:block; margin-top:2px;}
+.rev{display:grid;gap:12px;text-align:left}
+.rv{background:#fff;border-radius:18px;padding:18px 20px;border:1px solid var(--line); box-shadow:0 2px 10px rgba(60,30,90,.03)}
+.rv .meta{font-size:12.5px;color:#8a6fb3;font-weight:700;margin-bottom:6px}
+.rv p{margin:0;font-size:14.5px}
+.faq{text-align:left;display:grid;gap:8px}
+.faq .qa{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.faq .qa b{display:block;font-size:15px; color:var(--night)}
+.faq p{margin:8px 0 0;font-size:14.5px;color:var(--mute)}
 .links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:30px;}
 .links a{padding:8px 14px;border-radius:999px;border:1px solid #e4d9ee;text-decoration:none;color:var(--ink);font-size:13px;font-weight:600;background:#fff}
 .foot{background:var(--night);color:#9d92a8;text-align:center;padding:36px 20px 60px;font-size:13px}
@@ -66,14 +82,65 @@ body{margin:0}.pg{--ink:#1f1a24;--mute:#6f6676;--line:#ece7ef;--night:#0d0a14;--
 <div class="pg">
 <section class="hero">
     <div class="orb"><div class="mark">CAREKOK</div></div>
-    <h1>케어콕 <small>향기로 쉬어가는 아로마 마사지</small></h1>
-    <p class="lead">서울 출장 아로마 마사지. 향기 없는 오일도 있어요. 집,숙소로 찾아가며, 처음이시면 차례부터 설명드려요.</p>
+    <h1>케어콕 서울/경기 전체<small>향기로 쉬어가는 아로마 마사지</small></h1>
+    <p class="lead">은은한 오일 향과 부드러운 손길로 굳은 몸을 풀어 드려요. 모든 코스는 전신 관리를 기본으로 진행됩니다.</p>
+</section>
+
+<section class="sec">
+    <div class="in">
+        <p class="kick">BENEFITS</p>
+        <h2>서울/경기 전체에서 받는 특별한 이유</h2>
+        <div class="cards">
+            
+            <div class="card text-only">
+                <div class="info"><b>이동 없이 내 방에서 편안하게</b><p>관리가 끝난 후 무거운 몸을 이끌고 이동할 필요 없습니다. 나른해진 상태 그대로 내 집에서 깊은 숙면을 취하실 수 있습니다.</p></div>
+            </div>
+            <div class="card text-only">
+                <div class="info"><b>향기 없는 무향 오일 완비</b><p>오일 특유의 냄새가 부담스러우신가요? 향에 예민하신 분들을 위한 최고급 무향 오일이 상시 준비되어 있습니다.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec">
+    <div class="in">
+        <p class="kick">PROGRAM</p>
+        <h2>아로마 케어 코스</h2>
+        <div class="cards">
+            
+            <div class="card text-only">
+                <div class="info"><b>A 코스 (60분)</b><p>베이직 후면 아로마 케어. 가볍게 뭉친 근육을 풀어주는 기본 코스입니다.</p></div>
+            </div>
+            <div class="card text-only">
+                <div class="info"><b>B 코스 (90분) ⭐ 베스트셀러</b><p>전신 아로마와 집중 피로 회복이 들어간 시그니처 코스. 가장 많은 분들이 찾으십니다.</p></div>
+            </div>
+            <div class="card text-only">
+                <div class="info"><b>C 코스 (120분)</b><p>전신 아로마 및 스페셜 릴렉싱. 몸 전체를 꼼꼼하게 관리하는 VIP 힐링 프로그램입니다.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec">
+    <div class="in">
+        <p class="kick">PROCESS</p>
+        <h2>진행 순서 안내</h2>
+        <p style="font-size:14px; color:var(--mute); margin-bottom:24px;">처음이셔도 안심하세요. 친절히 안내해 드립니다.</p>
+        <ol class="steps">
+            
+            <li><b>예약 및 대기</b><span>원하시는 시간과 장소로 관리사가 비품을 챙겨 찾아갑니다.</span></li>
+            <li><b>코스 안내 및 선택</b><span>진행 차례를 설명해 드리고, 취향에 맞게 오일을 선택합니다.</span></li>
+            <li><b>전신 아로마 진행</b><span>부드러운 손길로 굳어있던 몸의 피로를 풀어드립니다.</span></li>
+            <li><b>마무리 및 휴식</b><span>관리가 끝나면 개운해진 몸으로 바로 편안하게 휴식을 취하세요.</span></li>
+        </ol>
+    </div>
 </section>
 
 <section class="sec">
     <div class="in">
         <p class="kick">PARTNERS</p>
         <h2>엄선된 제휴 업체 목록</h2>
+        <p style="font-size:14px; color:var(--mute); margin-bottom:24px;">원하시는 업체를 선택하여 바로 전화로 문의해 보세요.</p>
         <div class="cards">
             
         <div class="card">
@@ -124,15 +191,40 @@ body{margin:0}.pg{--ink:#1f1a24;--mute:#6f6676;--line:#ece7ef;--night:#0d0a14;--
 
 <section class="sec">
     <div class="in">
+        <p class="kick">REVIEWS</p>
+        <h2>서울/경기 전체 리얼 생생 후기</h2>
+        <div class="rev">
+            
+            <div class="rv"><div class="meta">서울 자택 방문 고객님</div><p>"처음 불러봐서 걱정했는데, 오셔서 순서부터 차근차근 설명해주시고 너무 시원했습니다. 끝나고 바로 잘 수 있어서 최고네요."</p></div>
+            <div class="rv"><div class="meta">경기 숙소 방문 고객님</div><p>"오일 냄새를 싫어해서 고민하다가 무향 오일이 있다는 글 보고 예약했습니다. 냄새 하나도 안 나고 실력도 훌륭해서 꿀잠 잤습니다."</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="sec">
+    <div class="in">
+        <p class="kick">Q&A</p>
+        <h2>자주 묻는 질문</h2>
+        <div class="faq">
+            
+            <div class="qa"><b>처음인데 제가 따로 준비할 게 있나요?</b><p>아닙니다. 고객님은 편안한 복장으로 계시기만 하면 됩니다. 필요한 최고급 오일과 수건 등 모든 물품은 직접 챙겨서 방문합니다.</p></div>
+            <div class="qa"><b>원룸이나 작은 오피스텔에서도 가능한가요?</b><p>네, 매트를 깔 수 있는 최소한의 공간만 있다면 원룸, 오피스텔 어디든 편안하게 관리를 받으실 수 있습니다.</p></div>
+            <div class="qa"><b>향기 없는 오일은 추가 비용이 있나요?</b><p>추가 비용 없이 무향 오일을 선택하실 수 있습니다. 예약 시 미리 말씀해 주시면 더욱 원활하게 준비해 드립니다.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="sec">
+    <div class="in">
         <p class="kick">LOCATIONS</p>
-        <h2>지역별로 찾아보기</h2>
+        <h2>다른 지역 찾아보기</h2>
         <div class="links">
             <a href="/gangnam.html">강남</a><a href="/seocho.html">서초</a><a href="/songpa.html">송파</a><a href="/mapo.html">마포</a><a href="/bundang.html">분당</a><a href="/pangyo.html">판교</a><a href="/ilsan.html">일산</a><a href="/suwon.html">수원</a><a href="/dongtan.html">동탄</a><a href="/bucheon.html">부천</a>
         </div>
     </div>
 </section>
 
-<footer class="foot">© 케어콕 |  아로마 출장 마사지 전문</footer>
+<footer class="foot">© 케어콕 | 서울/경기 전체 아로마 케어 전문</footer>
 </div>
 </body>
 </html>
