@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carekok-sudo.netlify.app/sitemap.xml
