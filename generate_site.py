@@ -38,7 +38,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{url}">
-<meta name="naver-site-verification" content="네이버_서치어드바이저_인증코드_입력">
+<meta name="naver-site-verification" content="ea8143926df6c51cada49884b820e2511b2e9e1c">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:url" content="{url}">
