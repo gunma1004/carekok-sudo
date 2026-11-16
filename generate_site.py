@@ -187,9 +187,8 @@ def generate_companies_html():
         <div class="card">
             <div class="info">
                 <b>{comp['name']}</b>
-                <p>{comp['phone']}</p>
+                <p style="font-size:16px; margin-top:4px;">{comp['phone']}</p>
             </div>
-            <a href="tel:{comp['phone'].replace('-', '')}" class="btn-call">전화연결</a>
         </div>"""
     return html
 
